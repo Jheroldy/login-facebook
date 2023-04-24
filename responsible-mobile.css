@@ -1,5 +1,5 @@
 
-@media (max-width: 360px) {
+@media (min-width: 360px) {
     :root{
         --size-w-input: 330px;
         --siz-h-input: 44px;
