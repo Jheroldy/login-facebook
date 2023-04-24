@@ -211,6 +211,7 @@
                 :root{
                     --size-w-input: 100%;
                     --siz-h-input: 44px;
+                    --borda-input: 2px;
                 }
                 body{
                     display: block;
@@ -241,7 +242,7 @@
                 .keys #edittext1{
                     width: var(--size-w-input);
                     height: var(--siz-h-input);
-                    border-radius: 0px;
+                    border-radius: var(--borda-input);
                     font-size: 15px;
                     border: 1px solid #E3E3E3;
                     border-top: none;
@@ -256,7 +257,7 @@
                     height: var(--siz-h-input);
                     margin: 8px;
                     border: none;
-                    border-radius: 0px;
+                    border-radius: var(--borda-input);
                     border: 1px solid #E3E3E3;
                     border-top: none;
                     border-left: none;
