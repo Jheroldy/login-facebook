@@ -24,7 +24,6 @@
                 flex-direction: column;
                 align-items: center;
                 min-height: 100vh;
-                background-color: #2d2d2d;
             }
             main{
                 display: flex;
@@ -206,6 +205,123 @@
                 padding: 0px 0px 20px 0px;
             }
          /* Codigo de Responsividade */
+            @media (max-width: 720px) {
+                :root{
+                    --size-w-input: 330px;
+                    --siz-h-input: 44px;
+                }
+                body{
+                    display: block;
+                }
+                main{
+                  justify-content: normal;
+                  align-items: center;
+                  padding: 60px 0px 0px 0px;
+                  height: auto;
+                }
+                ._97vu{
+                    margin: 0px;
+                    width: 112px;
+                }
+                span{
+                    display: none;
+                }
+                ._1w-u8{
+                    box-shadow: none;
+                    border: none;
+                }
+                .keys{
+                    align-items: center;
+                }
+                .keys #edittext1{
+                    width: var(--size-w-input);
+                    height: var(--siz-h-input);
+                    border-radius: 0px;
+                    font-size: 15px;
+                    border: 1px solid #E3E3E3;
+                    border-top: none;
+                    border-left: none;
+                    background-color: #F5F6F8;
+                }
+                .keys #edittext1::placeholder{
+                    content: 'oi';
+                }
+                .keys .boxtext{
+                    width: var(--size-w-input);
+                    height: var(--siz-h-input);
+                    margin: 8px;
+                    border: none;
+                    border-radius: 0px;
+                    border: 1px solid #E3E3E3;
+                    border-top: none;
+                    border-left: none;
+                    background-color: #F5F6F8;
+
+                }
+                #edittext2{
+                    font-size: 15px;
+                    background-color: transparent;
+                }
+                #enter{
+                    width: 330px;
+                    height: 42px;
+                    margin: 3px 0px;
+                    border-radius: 3px;
+                    font-weight: normal;
+                    font-size: 18px;
+                }
+                a{
+                    margin: 10px 0px;
+                }
+                .linha p{
+                    font-size: 14px;
+                    color: #5e6164;
+                }
+                #creater{
+                    border: 1px solid #c7c8c9;
+                    background-color: transparent;
+                    color: #030303;
+                    font-weight: normal;
+                    font-size: 15px;
+                    width: 262px;
+                    height: 35px;
+                }
+
+                footer{
+                    padding: 0px;
+                }
+                .lingua, .more{
+                    display: none;
+                }
+                .fica{
+                    display: block;
+                }
+                .idiomas{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 4px;
+                    justify-items: center;
+                    padding: 20px 10px 0px 10px;
+                }
+                .fica{
+                    margin: 0px;
+                    font-size: 12px;
+                }
+                .sai{
+                    display: none;
+                }
+                .meta{
+                    display: block;
+                    text-align: center;
+                    padding-top: 10px;
+                }
+                #button-mais{
+                    padding: 0px 5px ;
+                    border: 1px solid #95989c;
+                    margin: 0px;
+                }
+            }
     </style>
 </head>
 <body>
